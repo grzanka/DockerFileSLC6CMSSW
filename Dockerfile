@@ -10,7 +10,7 @@ RUN yum -y update; yum clean all
 RUN yum -y install rubygems ruby-devel gcc; yum clean all
 
 # Ruby 193 tricks
-RUN yum -y install centos-release-SCL; yum clean all
+RUN yum -y install centos-release-scl; yum clean all
 RUN yum -y install ruby193 ruby193-ruby-devel; yum clean all
 RUN echo "export PATH=\${PATH}:/opt/rh/ruby193/root/usr/local/bin" | tee -a /opt/rh/ruby193/enable
 RUN source /opt/rh/ruby193/enable
