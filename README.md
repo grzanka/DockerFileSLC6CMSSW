@@ -1,0 +1,2 @@
+# DockerFileSLC6CMSSW
+SLC6 CMSSW
